@@ -17,10 +17,12 @@ pip install kaolin==0.13.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/t
 ```
 * Install diff-gaussian-rasterization and simple_knn from [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting). Note, for rendering 32-channel images, please modify "NUM_CHANNELS 3" to "NUM_CHANNELS 32" in "diff-gaussian-rasterization/cuda_rasterizer/config.h".
 ```
-cd path/to/gaussian-splatting
+git clone git@github.com:graphdeco-inria/gaussian-splatting.git --recursive
+cd gaussian-splatting
 # Modify "submodules/diff-gaussian-rasterization/cuda_rasterizer/config.h"
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
+cd ..
 ```
 * Download Required Files and Checkpoints
 ```
