@@ -1,5 +1,5 @@
 # Preprocessing and Training NeRSemble Dataset on Gaussian Head Avatars
-
+## [Paper](https://arxiv.org/abs/2312.03029) | [Project Page](https://yuelangx.github.io/gaussianheadavatar/)
 ## Requirements
 
 * Create a conda environment.
