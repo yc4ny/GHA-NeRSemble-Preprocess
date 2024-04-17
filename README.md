@@ -58,6 +58,14 @@ First modify the path in this [line](https://github.com/yc4ny/NeRSemble_Preproce
 ```
     DATA_SOURCE = '/path/to/raw/nersemble/dataset'
 ```
+Next you can start the full preprocessing and training pipeline with:
+```
+    python run_full.py --gpu {gpu id} --id {sequence id} --start_stage {step to start from}
+```
+For example if you have already extracted the frames, cropped and resized on raw videos of sequence ID 018 and want to perform from background removal on GPU ID 0, you should run:
+```
+    python run_full.py --gpu 0 --id 018 --start_stage 3
+```
 
 ## Citation
 ```
