@@ -1,4 +1,4 @@
-# Gaussian Head Avatar - Data Preprocessing & Training Script
+# Preprocessing and Training NeRSemble Dataset on Gaussian Head Avatars
 
 ## Requirements
 
@@ -30,7 +30,6 @@ gdown --folder https://drive.google.com/drive/folders/1DwlumiyUrxm6DJDqnGcaqTae8
 mv assets/BFM09_model_info.mat Multiview-3DMM-Fitting/assets/BFM/
 mv assets/pytorch_resnet101.pth BackgroundMattingV2/assets/
 ```
-
 
 ## Citation
 ```
