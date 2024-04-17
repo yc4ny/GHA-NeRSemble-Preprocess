@@ -1,6 +1,6 @@
 from lib.face_models.BFMModule import BFMModule
-from lib.face_models.FaceVerseModule import FaceVerseModule
-from lib.face_models.FLAMEModule import FLAMEModule
+# from lib.face_models.FaceVerseModule import FaceVerseModule
+# from lib.face_models.FLAMEModule import FLAMEModule
 
 def get_face_model(face_model, batch_size, device):
     if face_model == 'BFM':
