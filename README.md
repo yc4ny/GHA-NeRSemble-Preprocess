@@ -44,9 +44,12 @@ The codebase has 6 main components.
 In case of disconnections between each steps, there is a *start_stage* flag which resumes training for a capture ID from that specific step/stage. 
 
 
-## Datasets
+## Preparing Datasets
 In this code's pipeline instructions for preprocessing [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/):
-* Apply to download [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/) and unzip it into "path/to/raw_NeRSemble/".
+Apply to download [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/) and unzip it into "path/to/raw_NeRSemble/".
+I have provided an *unzip.sh* file which extracts all the zip files in the base directory. 
+After unzipping your "raw_NeRSemble" directory should look something like this: 
+<img src="assets/unzip_directory.png"/> 
 
 
 
