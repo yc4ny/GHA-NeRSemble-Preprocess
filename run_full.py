@@ -2,7 +2,7 @@ import argparse
 import os
 import subprocess
 
-
+hello
 def main(id, gpu, start_stage):
     start_stage = int(start_stage)
     print(f"Processing ID: {id} on GPU: {gpu}")
