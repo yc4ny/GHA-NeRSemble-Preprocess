@@ -49,7 +49,7 @@ In this code's pipeline instructions for preprocessing [NeRSemble dataset](https
 Apply to download [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/) and unzip it into "path/to/raw_NeRSemble/".
 I have provided an *unzip.sh* file which extracts all the zip files in the base directory. 
 After unzipping your "raw_NeRSemble" directory should look something like this: 
-<img src="assets/unzip_directory.png"/> 
+<img src="assets/unzip_directory.png"width="318" height="397"/> 
 
 
 
