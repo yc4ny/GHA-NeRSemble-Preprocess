@@ -41,6 +41,8 @@ The codebase has 6 main components.
 - Step 5: Training - Stage 1: Geometry Guided Initialization 
 - Step 6: Training - Stage 2: Gaussian Head Avatar Model
 
+In case of disconnections between each steps, there is a *start_stage* flag which resumes training for a capture ID from that specific step/stage. 
+
 
 ## Datasets
 In this code's pipeline instructions for preprocessing [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/):
