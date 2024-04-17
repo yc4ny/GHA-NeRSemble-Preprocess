@@ -1,4 +1,5 @@
 # Gaussian Head Avatar - Data Preprocessing & Training Script
+
 ## Requirements
 
 * Create a conda environment.
@@ -21,3 +22,20 @@ cd path/to/gaussian-splatting
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 ```
+* Download Required Files and Checkpoints
+```
+gdown --folder https://drive.google.com/drive/folders/1DwlumiyUrxm6DJDqnGcaqTae8O0uoSxZ?usp=sharing
+mv assets/BFM09_model_info.mat Multiview-3DMM-Fitting/assets/BFM/
+mv assets/pytorch_resnet101.pth BackgroundMattingV2/assets/
+```
+
+
+
+## Citation
+```
+@inproceedings{xu2023gaussianheadavatar,
+  title={Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians},
+  author={Xu, Yuelang and Chen, Benwang and Li, Zhe and Zhang, Hongwen and Wang, Lizhen and Zheng, Zerong and Liu, Yebin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
