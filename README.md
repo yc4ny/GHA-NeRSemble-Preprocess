@@ -47,7 +47,7 @@ In case of disconnections between each steps, there is a *start_stage* flag whic
 ## Preparing Datasets
 In this code's pipeline instructions for preprocessing [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/):
 Apply to download [NeRSemble dataset](https://tobias-kirschstein.github.io/nersemble/) and unzip it into "path/to/raw_NeRSemble/".
-I have provided an *unzip.sh* file which extracts all the zip files in the base directory. 
+I have provided an *unzip.sh* file which extracts all the zip files in the base directory. To speed up the process, multithreading has been applied.  
 After unzipping your "raw_NeRSemble" directory should look something like this: 
 
    ```
