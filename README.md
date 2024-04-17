@@ -31,12 +31,6 @@ mv assets/BFM09_model_info.mat Multiview-3DMM-Fitting/assets/BFM/
 mv assets/pytorch_resnet101.pth BackgroundMattingV2/assets/
 ```
 
-* Install Necessary Requirements for Multiview BFM Fitting
-```
-pip install face_alignment
-pip install trimesh
-pip install pyrender
-```
 
 ## Citation
 ```
