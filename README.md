@@ -52,6 +52,9 @@ After unzipping your "raw_NeRSemble" directory should look something like this:
 
 <img src="assets/unzip_directory.png" width="318" height="397"/> 
 
+## Running Preprocessing + Training (Full Pipeline)
+
+First modify the path in this [line](https://github.com/yc4ny/NeRSemble_Preprocess/blob/abe7da8115c08827fa16e898120f0fb06550f4d7/preprocess/preprocess_nersemble.py#L114) of the *preprocess/preprocess_nersemble.py* file to the path of your raw nersemble dataset that you have extracted in the previous section.
 
 
 ## Citation
