@@ -50,7 +50,21 @@ Apply to download [NeRSemble dataset](https://tobias-kirschstein.github.io/nerse
 I have provided an *unzip.sh* file which extracts all the zip files in the base directory. 
 After unzipping your "raw_NeRSemble" directory should look something like this: 
 
-<img src="assets/unzip_directory.png" width="318" height="397"/> 
+   ```
+    ./NeRSemble_raw/
+    ├── camera_params
+    │   └── 017
+    │   └── 018
+    |   └── ...
+    ├── sequence_BACKGROUND_part-1
+    |   └── 017
+    |   └── 018
+    |   └── ...
+    └── sequence_EMO-1-shout+laugh_part-1
+        └── 017
+        └── 018
+        └── ...
+   ```
 
 ## Running Preprocessing + Training (Full Pipeline)
 
