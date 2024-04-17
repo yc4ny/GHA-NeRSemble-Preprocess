@@ -1,6 +1,6 @@
 # Preprocessing and Training NeRSemble Dataset on Gaussian Head Avatars
 ## [Paper](https://arxiv.org/abs/2312.03029) | [Project Page](https://yuelangx.github.io/gaussianheadavatar/)
-<img src="imgs/teaser.jpg" width="840" height="396"/> 
+<img src="assets/teaser.jpg" width="840" height="396"/> 
 
 ## Requirements
 
