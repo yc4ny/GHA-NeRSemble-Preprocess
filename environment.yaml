@@ -81,6 +81,10 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.5=hc292b87_0
   - pip:
+      - face_alignment
+      - trimesh
+      - pyrender
+      - gdown
       - click==8.1.7
       - coloredlogs==15.0.1
       - einops==0.7.0
