@@ -117,11 +117,13 @@ For example if you have already extracted the frames, cropped and resized on raw
 
 ### Step 5: Geometry Guidance Model Training
 
-<img src="" width="600" height="600"/>
+<img src="assets/stage1.png" >
+From Left: GT, Trained Initial, Surface Normal Estimate
 
 ### Step 6: Gaussian Head Model Training
 
-<img src="" width="600" height="600"/>
+<img src="assets/stage2.png" >
+Left: GT, Right: Trained Avatar
 
 ## Citation
 
