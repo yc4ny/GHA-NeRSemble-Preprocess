@@ -112,14 +112,16 @@ For example if you have already extracted the frames, cropped and resized on raw
 
 ### Step 4: Multiview BFM Fitting(2) - BFM Parameter Fitting
 
-<img src="assets/landmark.jpg" width="600" height="600"/>
+<img src="" width="600" height="600"/>
 
 
 ### Step 5: Geometry Guidance Model Training
 
+<img src="" width="600" height="600"/>
 
 ### Step 6: Gaussian Head Model Training
 
+<img src="" width="600" height="600"/>
 
 ## Citation
 
