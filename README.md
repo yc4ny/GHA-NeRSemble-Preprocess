@@ -50,7 +50,7 @@ The codebase has 6 main components.
 * Step 1: Extracting frames from raw videos and resizing, cropping to match input of Gaussian-Head-Avatars.
 * Step 2: Sampling Data. Every 10th frame is sampled and used for training.
 * Step 3: Performing Background Removal using [BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2)
-* Step 4: Performing Multiview BFM 2D Keypoing Detection + Parameter Fitting
+* Step 4: Performing Multiview BFM 2D Keypoint Detection + Parameter Fitting
 * Step 5: Training - Stage 1: Geometry Guided Initialization
 * Step 6: Training - Stage 2: Gaussian Head Avatar Model
 
