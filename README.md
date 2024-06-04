@@ -106,7 +106,7 @@ For example if you have already extracted the frames, cropped and resized on raw
 <img src="assets/bg_removal.png" width="640" height="345"/>
 
 
-### Step 4: Multiview BFM Fitting(1) - Landamark Detection
+### Step 4: Multiview BFM Fitting(1) - Landmark Detection
 
 <img src="assets/landmark.jpg" width="600" height="600"/>
 
