@@ -35,14 +35,6 @@ pip install submodules/simple-knn
 cd ..
 ```
 
-* Download Required Files and Checkpoints
-
-```
-gdown --folder https://drive.google.com/drive/folders/1o8JeQirndKCpL1fvyhp-GsQeBZjgv22i
-mv assets/BFM09_model_info.mat Multiview-3DMM-Fitting/assets/BFM/
-mv assets/pytorch_resnet101.pth BackgroundMattingV2/assets/
-```
-
 ## Overview
 
 The codebase has 6 main components.
